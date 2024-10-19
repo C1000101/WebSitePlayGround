@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../css/global.css" rel="stylesheet">
     <link href="../css/menu.css" rel="stylesheet">
     <title>Coffee Shop - Menu</title>
 </head>
 <body>
     <!--header-->
     <header>
-        <a href="../index.html">nitro</a>
+        <img src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+        <h1 class="font-color-primary">nitro</h1>
         <nav>
-            <ul>
+            <ul class="site-navBar-list">
                 <li>
-                    <a href="">ABOUT</a>
+                    <a href="../index.html">ABOUT</a>
                 </li>
                 <li>
                     <a href="">MENU</a>
@@ -24,11 +26,16 @@
                 </li>
             </ul>
         </nav>
-        <h1>Menu</h1>
-        <nav>
-            <ul>
+        <div class="hero">
+            <div class="hero-textBox">
+                <h2 class="hero-textBox-text">MENU</h2>
+            </div>
+            <img class="hero-image" src="../assets/images/coffee-circle.jpg" alt="ground coffee in the shape of a circle.">
+        </div>
+        <nav class="page-navBar">
+            <ul class="page-navBar-list">
                 <li>
-                    <a href="#hot-drinks">Hot Drinks</a>
+                    <a href="#hot-drinks">Hot Drink</a>
                 </li>
                 <li>
                     <a href="#cold-drinks">Cold Drinks</a>
@@ -43,7 +50,7 @@
     <!--main section-->
     <main>
         <!--hot drinks section-->
-        <section id="hot-drinks">
+        <section class="hot-drinks">
             <h2>Hot Drinks</h2>
             <h3>In-house Brew</h3>
             <p>
