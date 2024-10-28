@@ -1,0 +1,33 @@
+/* Header */
+
+.header {
+    background-color: var(--highlight-color-pink);
+}
+
+.header-icon {
+    width: 50px;
+}
+
+.header-title {
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+
+.header-title > h2 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+/* Header > Nav */
+
+.site-navBar-list {
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* Hero */
+.hero {
+    background-color: var(--highlight-color-pink);
+}

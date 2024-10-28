@@ -1,3 +1,29 @@
+/* Elements */
+
+:root {
+    --primary-color: #393939;
+    --secondary-color: #FFF;
+    --highlight-color-blue: #5BACC3;
+    --highlight-color-pink: #FFF0ED;
+    --neutral-color-light-gray: #F7F7F7;
+}
+
+h1, 
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
