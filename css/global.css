@@ -6,6 +6,8 @@
     --highlight-color-blue: #5BACC3;
     --highlight-color-pink: #FFF0ED;
     --neutral-color-light-gray: #F7F7F7;
+
+    --max-width: 2037px;
 }
 
 h1, 
@@ -27,4 +29,17 @@ p {
 body {
     font-family: 'Open Sans';
     font-weight: 400;
+    background-color: var(--primary-color);
+}
+
+.wrapper {
+    background-color: var(--secondary-color);
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px 20px 5px;
+}
+
+.bold-text {
+    font-weight: 700;
 }

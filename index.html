@@ -9,90 +9,92 @@
     <title>Coffee Shop - Home</title>
 </head>
 <body>
-    <!--header-->
-    <header class="header">
-        <img class="header-icon" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bag">
-        <a class="header-title" href=""><h2>nitro</h2></a>
-        <nav class="site-navBar">
-            <ul class="site-navBar-list">
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-                <li>
-                    <a href="./pages/menu.html">MENU</a>
-                </li>
-                <li>
-                    <a href="">SHOP NOW</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+         <!--header-->
+        <header class="header">
+            <img class="header-icon" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bag">
+            <a class="header-title" href=""><h2>nitro</h2></a>
+            <nav class="site-navBar">
+                <ul class="site-navBar-list">
+                    <li>
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="./pages/menu.html">MENU</a>
+                    </li>
+                    <li>
+                        <a href="">SHOP NOW</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <!--main section-->
-    <main>
-        <section class="hero">
-            <h1>Nitro Coffee</h1>
-            <p>
-                Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
-            </p>
-            <button type="button">SHOP NOW</button>
-            <img src="" alt="coffee bag">
-        </section>
-
-        <h2>Our Products Section</h2>
-        <section class="product-section">
-            <div class="product-card">
-                <img src="" alt="coffee beans">
-                <h3>Coffee Beans</h3>
+        <!--main section-->
+        <main>
+            <section class="hero">
+                <h1>Nitro Coffee</h1>
                 <p>
-                    $18.99
+                    Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.
+                </p>
+                <button class="button" type="button">SHOP NOW</button>
+                <img class="hero-image" src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+            </section>
+
+            <section class="product-section">
+                <h2>Our Products</h2>
+                <div class="product-card">
+                    <img src="./assets/images/coffeebeans.png" alt="coffee beans">
+                    <h3>Coffee Beans</h3>
+                    <h3 class="product-price">
+                        $18.99
+                    </h3>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/coldbrew.png" alt="cold brew">
+                    <h3>Cold Brew</h3>
+                    <h3 class="product-price">
+                        $4.99
+                    </h3>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/inhousebrew.png" alt="in-house brew">
+                    <h3>In-house Brew</h3>
+                    <h3 class="product-price">
+                        $2.99
+                    </h3>
+                </div>
+                <button class="button" type="button">VIEW ALL</button>
+            </section>
+            <section class="discount-section">
+                <p class="discount-text">
+                    Get 20% off your first order with code: <span class="bold-text ">FirstNirto</span>
+                </p>
+            </section>
+        </main>
+
+        <!--footer-->
+        <footer class="footer">
+            <div>
+                <h3>Address</h3>
+                <p>
+                    503 Broadway Penthouse<br>
+                    New York 
                 </p>
             </div>
-            <div class="product-card">
-                <img src="" alt="cold brew">
-                <h3>Cold Brew</h3>
+            <div>
+                <h3>Hours</h3>
                 <p>
-                    $4.99
+                    <span class="bold-text ">Monday - Friday:</span> 9am - 7pm <br>
+                    <span class="bold-text ">Saturday - Sunday:</span> 10am - 5pm
                 </p>
             </div>
-            <div class="product-card">
-                <img src="" alt="in-house brew">
-                <h3>In-house Brew</h3>
-                <p>
-                    $2.99
-                </p>
+            <div>
+                <h3>Social</h3>
+                <img src="./assets/logos/Facebook-Icon.svg" alt="facebook">
+                <img src="./assets/logos/Yelp-Icon.svg" alt="yelp">
+                <img src="./assets/logos/Instagram-Icon.svg" alt="instagram">
             </div>
-            <button type="button">VIEW ALL</button>
-        </section>
-        <section class="discount-section">
-            <p>
-                Get 20% off your first order with code: FirstNitro
-            </p>
-        </section>
-    </main>
-
-    <!--footer-->
-    <footer>
-        <div>
-            <h3>Address</h3>
-            <p>
-                503 Broadway Penthouse<br>
-                New York 
-            </p>
-        </div>
-        <div>
-            <h3>Hours</h3>
-            <p>
-                Monday - Friday: 9am - 7pm <br>
-                Saturday - Sunday: 10am - 5pm
-            </p>
-        </div>
-        <div>
-            <h3>Social</h3>
-            <img scr="" alt="facebook">
-            <img scr="" alt="yelp">
-            <img scr="" alt="instagram">
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>

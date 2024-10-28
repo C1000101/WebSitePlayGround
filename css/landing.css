@@ -28,6 +28,51 @@
 }
 
 /* Hero */
+
 .hero {
     background-color: var(--highlight-color-pink);
+}
+
+/* Button */
+
+.button {
+    background-color: var(--highlight-color-blue);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* Products section */
+.product-section img {
+    height: 280px;
+}
+
+.product-price {
+    color: var(--highlight-color-blue);
+    font-weight: 400;
+}
+
+.discount-section {
+    width: 90vw;
+    max-width: var(--max-width);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.discount-text {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--highlight-color-pink);
+}
+
+.footer img {
+    width: 50px;
 }
