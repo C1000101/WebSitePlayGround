@@ -5,7 +5,8 @@
 }
 
 .header-icon {
-    width: 50px;
+    /* width: 50px; */
+    width: 3rem;
 }
 
 .header-title {
@@ -15,7 +16,8 @@
 }
 
 .header-title > h2 {
-    font-size: 33px;
+    /* font-size: 33px; */
+    font-size: 2.2rem;
     font-weight: 300;
 }
 
@@ -23,7 +25,8 @@
 
 .site-navBar-list {
     list-style-type: none;
-    font-size: 21px;
+    /* font-size: 21px; */
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -33,19 +36,29 @@
     background-color: var(--highlight-color-pink);
 }
 
+.hero-image {
+    width: 35%;
+    max-width: 19rem;
+    min-width: 10rem;
+}
+
 /* Button */
 
 .button {
     background-color: var(--highlight-color-blue);
     color: var(--secondary-color);
     border: none;
-    font-size: 21px;
+    /* font-size: 21px; */
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
 /* Products section */
 .product-section img {
-    height: 280px;
+    /* height: 280px; */
+    width: 35%;
+    max-width: 10rem;
+    min-width: 5rem;
 }
 
 .product-price {
@@ -61,10 +74,11 @@
 }
 
 .discount-text {
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 2.9rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 0px;
+    margin-top: none;
 }
 
 /* Footer */
@@ -74,5 +88,6 @@
 }
 
 .footer img {
-    width: 50px;
+    /* width: 50px; */
+    width: 3rem;
 }
