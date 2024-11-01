@@ -43,3 +43,46 @@ body {
 .bold-text {
     font-weight: 700;
 }
+
+.heading {
+    background-color: var(--highlight-color-pink);
+    padding: 1rem 0;
+}
+
+.heading__logo {
+    width: 3rem;
+    display: inline-block;
+}
+
+.heading__title {
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 0;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav__list-item {
+    padding: 0;
+    margin-left: 1.6rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.nav__link--selected {
+    color: var(--highlight-color-blue);
+}
