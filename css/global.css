@@ -44,6 +44,8 @@ body {
     font-weight: 700;
 }
 
+/* header */
+
 .heading {
     background-color: var(--highlight-color-pink);
     padding: 1rem 0;
@@ -59,6 +61,8 @@ body {
     display: inline-block;
     margin: 0;
 }
+
+/* nav */
 
 .nav {
     display: inline-block;
@@ -85,4 +89,15 @@ body {
 
 .nav__link--selected {
     color: var(--highlight-color-blue);
+}
+
+/* Button */
+
+.button {
+    background-color: var(--highlight-color-blue);
+    color: var(--secondary-color);
+    border: none;
+    /* font-size: 21px; */
+    font-size: 1.4rem;
+    font-weight: 400;
 }
