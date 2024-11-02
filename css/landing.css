@@ -2,6 +2,7 @@
 
 .hero {
     background-color: var(--highlight-color-pink);
+    margin: 1.25rem 0;
 }
 
 .hero__image {
@@ -12,32 +13,59 @@
 }
 
 /* Products section */
-
-.product-section img {
-    /* height: 280px; */
-    width: 35%;
-    max-width: 10rem;
-    min-width: 5rem;
+.product {
+    margin: 1.25rem 0 0 0;
 }
 
-.product-price {
+.product__card-wall {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product__card {
+    min-width: 20.6rem;
+    min-height: 27.5rem;
+    margin: 1.2rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.3rem 0.6rem -0.063rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.product__img {
+    /* height: 280px; */
+    min-height: 17.5rem;
+    margin: auto;
+}
+
+.product__text {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.product__price {
     color: var(--highlight-color-blue);
     font-weight: 400;
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
 }
 
-.discount-section {
+.discount {
     width: 90vw;
     max-width: var(--max-width);
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
-.discount-text {
+.discount__text {
     /* font-size: 45px; */
     font-size: 2.9rem;
     font-weight: 400;
     text-align: center;
-    margin-top: none;
+    margin: 0;
 }
 
 /* Footer */
@@ -46,7 +74,17 @@
     background-color: var(--highlight-color-pink);
 }
 
-.footer img {
+.footer__icon-container {
+    display: flex;
+}
+
+.footer__link {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__logo {
     /* width: 50px; */
     width: 3rem;
+    margin-right: 0.5rem;
 }
