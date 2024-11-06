@@ -93,6 +93,25 @@
     margin-left: 1.25rem;
 }
 
+.about-use {
+    background-color: gold;
+    display: flex;
+}
+
+.about-use__logo {
+    width: 3rem;
+}
+
+.about-us__image-container {
+    background-image: url(../assets/images/coldbrewbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-use__img {
+    height: 50%;
+}
+
 .discount {
     width: 90vw;
     max-width: var(--max-width);
