@@ -4,7 +4,9 @@
 .hero {
     /* height: 700px; */
     height: 40rem;
+    display: flex;
     justify-content: center;
+    align-content: center;
 }
 
 .hero__text-box {
@@ -17,13 +19,16 @@
     background-color: var(--primary-color);
     position: absolute;
     z-index: 1;
-    transform: translate(50vw, 0) translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .hero__text-box-text {
     color: var(--secondary-color);
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
     margin-top: 0;
 }
 
@@ -41,6 +46,7 @@
 .hero__image {
     width: 100%;
     min-width: 50rem;
+    height: 72rem ;
     align-self: center;
 }
 
