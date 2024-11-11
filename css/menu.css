@@ -2,7 +2,6 @@
 /* Header hero */
 
 .hero {
-    /* height: 700px; */
     height: 40rem;
     display: flex;
     justify-content: center;
@@ -10,11 +9,10 @@
 }
 
 .hero__text-box {
-    /* width: 300px; */
     width: 20%;
     min-width: 13rem;
     max-width: 19rem;
-    /* height: 200px; */
+
     height: 13rem;
     background-color: var(--primary-color);
     position: absolute;
@@ -40,7 +38,6 @@
     display: flex;
     background-position: center;
     background-size: cover;
-    background-repeat: none;
 }
 
 .hero__image {
@@ -66,7 +63,6 @@
     font-weight: 400;
     list-style-type: none;
     color: var(--secondary-color);
-    /* font-size: 21px; */
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -112,10 +108,8 @@
 }
 
 .product-section__text {
-    /* font-size: 18px; */
     font-size: 1.1rem;
     font-weight: 400;
-    /* max-width: 500px; */
     max-width: 30rem;
     min-width: 12rem;
     width: 100%;
