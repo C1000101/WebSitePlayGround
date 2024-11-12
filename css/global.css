@@ -7,8 +7,6 @@
     --highlight-color-pink: #FFF0ED;
     --neutral-color-light-gray: #F7F7F7;
     --neutral-color-gray: #909090;
-
-    --max-width: 2037px;
 }
 
 h1, 
@@ -100,12 +98,35 @@ body {
 
 /* Button */
 
-.button {
+.container-button {
+    position: relative;
+    display: inline-block;
+    width: 11.25rem;
+    height: 2.85rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.container-button__boarder {
+    border: 2px solid var(--primary-color);
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+
+.container-button__button {
     background-color: var(--highlight-color-blue);
     color: var(--secondary-color);
     padding: 0.625rem;
     border: none;
     font-size: 1.4rem;
     font-weight: 400;
-    width: 11.25rem;
+    width: inherit;
+    height: inherit;
+}
+
+.container-button__button--offset {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
 }
