@@ -107,11 +107,12 @@ body {
     margin-bottom: 1.25rem;
 }
 
-.container-button__boarder {
+.container-button__border {
     border: 2px solid var(--primary-color);
     width: inherit;
     height: inherit;
     position: absolute;
+    pointer-events: none;
 }
 
 .container-button__button {
@@ -127,6 +128,6 @@ body {
 
 .container-button__button--offset {
     position: absolute;
-    left: 1rem;
-    top: 1rem;
+    left: 0.9rem;
+    top: 0.9rem;
 }
