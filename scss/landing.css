@@ -1,27 +1,19 @@
-/* Elements */
-:root {
-  --primary-color: #393939;
-  --secondary-color: #FFF;
-  --highlight-color-blue: #5BACC3;
-  --highlight-color-pink: #FFF0ED;
-  --neutral-color-light-gray: #F7F7F7;
-  --neutral-color-gray: #909090;
-}
-
+/* Variable. */
+/* Elements. */
 h1,
 h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 300;
   margin: 0;
 }
 
 h3 {
-  font-size: 33px;
+  font-size: 2.1rem;
   font-weight: 300;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
@@ -31,34 +23,25 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  background-color: var(--secondary-color);
-  max-width: var(--max-width);
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
+/* General class format. */
 .bold-text {
   font-weight: 700;
 }
 
-/* header */
+/* heading */
 .heading {
-  background-color: var(--highlight-color-pink);
+  background-color: #FFF0ED;
   padding: 1rem;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-
 .heading__logo {
   width: 3rem;
   display: inline-block;
 }
-
 .heading__title {
-  color: var(--primary-color);
+  color: #393939;
   display: inline-block;
   margin: 0;
   flex-grow: 1;
@@ -68,7 +51,6 @@ body {
 .nav {
   display: inline-block;
 }
-
 .nav__list {
   list-style-type: none;
   display: flex;
@@ -76,21 +58,18 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .nav__list-item {
   padding: 0;
   margin-left: 1.6rem;
 }
-
 .nav__link {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #393939;
   font-weight: 400;
   font-size: 1.5rem;
 }
-
 .nav__link--selected {
-  color: var(--highlight-color-blue);
+  color: #5BACC3;
 }
 
 /* Button */
@@ -102,18 +81,16 @@ body {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
-
 .container-button__border {
-  border: 2px solid var(--primary-color);
+  border: 2px solid #393939;
   width: inherit;
   height: inherit;
   position: absolute;
   pointer-events: none;
 }
-
 .container-button__button {
-  background-color: var(--highlight-color-blue);
-  color: var(--secondary-color);
+  background-color: #5BACC3;
+  color: #FFF;
   padding: 0.625rem;
   border: none;
   font-size: 1.4rem;
@@ -121,7 +98,6 @@ body {
   width: inherit;
   height: inherit;
 }
-
 .container-button__button--offset {
   position: absolute;
   left: 0.3rem;
@@ -134,35 +110,31 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: var(--highlight-color-pink);
+  background-color: #FFF0ED;
   width: 100%;
   height: auto;
   padding: 1.5rem 0;
 }
-
 .hero__call-to-action {
   width: 30%;
   height: -moz-fit-content;
   height: fit-content;
 }
-
 .hero__image {
   height: 90%;
 }
 
 /* Products section */
 .product {
-  background-color: var(--neutral-color-light-gray);
+  background-color: #F7F7F7;
   text-align: center;
   padding: 1.5rem 0;
 }
-
 .product__card-wall {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .product__card {
   min-width: 20.6rem;
   min-height: 27.5rem;
@@ -175,32 +147,28 @@ body {
   justify-content: center;
   align-content: center;
   overflow: hidden;
-  background-color: var(--secondary-color);
+  background-color: #FFF;
 }
-
 .product__img {
   min-height: 17.5rem;
   margin: auto;
 }
-
 .product__details {
-  background-color: var(--highlight-color-pink);
+  background-color: #FFF0ED;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   height: 30%;
 }
-
 .product__name {
   margin-top: auto;
   margin-bottom: 0rem;
   margin-left: 1.25rem;
   text-align: start;
 }
-
 .product__price {
-  color: var(--highlight-color-blue);
+  color: #5BACC3;
   font-weight: 700;
   height: 100%;
   align-content: center;
@@ -208,9 +176,8 @@ body {
   margin-bottom: auto;
   margin-right: 1.25rem;
 }
-
 .product__discretion {
-  color: var(--neutral-color-gray);
+  color: #909090;
   width: auto;
   text-align: start;
   margin-top: 0rem;
@@ -249,7 +216,7 @@ body {
 }
 
 .about-us__image-container {
-  border: 5px solid var(--highlight-color-blue);
+  border: 5px solid #5BACC3;
   width: 20rem;
   height: 26rem;
   display: flex;
@@ -284,8 +251,8 @@ body {
 .discount {
   width: 90vw;
   max-width: var(--max-width);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: #393939;
+  color: #FFF;
   margin: 10rem auto;
 }
 
@@ -299,7 +266,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: var(--highlight-color-pink);
+  background-color: #FFF0ED;
   display: flex;
   justify-content: space-around;
   position: relative;
