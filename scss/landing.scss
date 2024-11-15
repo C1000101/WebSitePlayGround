@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
     width: 100%;
     height: auto;
     padding: 1.5rem 0;
@@ -24,7 +24,7 @@
 
 /* Products section */
 .product {
-    background-color: var(--neutral-color-light-gray);
+    background-color: $neutral-color-light-gray;
     text-align: center;
     padding: 1.5rem 0;
 }
@@ -47,7 +47,7 @@
     justify-content: center;
     align-content: center;
     overflow: hidden;
-    background-color: var(--secondary-color);
+    background-color: $secondary-color;
 }
 
 .product__img {
@@ -56,7 +56,7 @@
 }
 
 .product__details {
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@
 }
 
 .product__price {
-    color: var(--highlight-color-blue);
+    color: $highlight-color-blue;
     font-weight: 700;
     height: 100%;
     align-content: center;
@@ -82,7 +82,7 @@
 }
 
 .product__discretion {
-    color: var(--neutral-color-gray);
+    color: $neutral-color-gray;
     width: auto;
     text-align: start;
     margin-top: 0rem;
@@ -121,7 +121,7 @@
 }
 
 .about-us__image-container {
-    border: 5px solid var(--highlight-color-blue);
+    border: 5px solid $highlight-color-blue;
     width: 20rem;
     height: 26rem;
     display: flex;
@@ -156,8 +156,8 @@
 .discount {
     width: 90vw;
     max-width: var(--max-width);
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: $primary-color;
+    color: $secondary-color;
     margin: 10rem auto;
 }
 
@@ -172,7 +172,7 @@
 /* Footer */
 
 .footer {
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
     display: flex;
     justify-content: space-around;
     position: relative;

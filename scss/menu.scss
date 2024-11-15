@@ -12,7 +12,7 @@
 .hero__text-box {
     width: 20rem;
     height: 13rem;
-    background-color: var(--primary-color);
+    background-color: $primary-color;
     position: absolute;
     z-index: 1;
     display: flex;
@@ -26,7 +26,7 @@
     height: inherit;
     position: absolute;
     z-index: 2;
-    border: solid 5px var(--highlight-color-blue);
+    border: solid 5px $highlight-color-blue;
 }
 
 .hero__text-box-boarder--offset {
@@ -35,7 +35,7 @@
 }
 
 .hero__text-box-text {
-    color: var(--secondary-color);
+    color: $secondary-color;
     text-align: center;
     vertical-align: middle;
     margin-top: 0;
@@ -62,7 +62,7 @@
 
 .page-nav {
     display: block;
-    background-color: var(--primary-color);
+    background-color: $primary-color;
 }
 
 .page-nav__list {
@@ -73,7 +73,7 @@
     font-size: 1.4rem;
     font-weight: 400;
     list-style-type: none;
-    color: var(--secondary-color);
+    color: $secondary-color;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -82,12 +82,12 @@
 
 .page-nav__list-item {
     padding: 0 1.6rem;
-    border-left: solid 4px var(--highlight-color-blue);
+    border-left: solid 4px $highlight-color-blue;
     text-align: center;
 }
 
 .page-nav__link {
-    color: var(--secondary-color);
+    color: $secondary-color;
     text-decoration: none;
 } 
 
@@ -98,7 +98,7 @@
 }
 
 .product-section__hot-drinks {
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
 }
 
 .product-section__cold-drinks {
@@ -106,7 +106,7 @@
 }
 
 .product-section__pastries {
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
 }
 
 .product-section__category {
@@ -114,7 +114,7 @@
 }
 
 .product-section__price {
-    color: var(--highlight-color-blue);
+    color: $highlight-color-blue;
     font-size: 1.4rem;
 }
 

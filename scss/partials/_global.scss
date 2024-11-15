@@ -1,53 +1,49 @@
-/* Elements */
+/* Variable. */
+$primary-color: #393939;
+$secondary-color: #FFF;
+$highlight-color-blue: #5BACC3;
+$highlight-color-pink: #FFF0ED;
+$neutral-color-light-gray: #F7F7F7;
+$neutral-color-gray: #909090;
 
-:root {
-    --primary-color: #393939;
-    --secondary-color: #FFF;
-    --highlight-color-blue: #5BACC3;
-    --highlight-color-pink: #FFF0ED;
-    --neutral-color-light-gray: #F7F7F7;
-    --neutral-color-gray: #909090;
-}
+$font-weight-light: 300;
+$font-weight-medium: 400;
+$font-weight-heavy: 700;
 
+/* Elements. */
 h1, 
 h2 {
     font-size: 60px;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     margin: 0;
 }
 
 h3 {
     font-size: 33px;
-    font-weight: 300;
+    font-weight: $font-weight-light;
 }
 
 p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: $font-weight-medium;
 }
 
 body {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: $font-weight-medium;
     margin: 0;
 }
 
-.wrapper {
-    background-color: var(--secondary-color);
-    max-width: var(--max-width);
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
+/* General class format. */
 
 .bold-text {
-    font-weight: 700;
+    font-weight: $font-weight-heavy;
 }
 
 /* header */
 
 .heading {
-    background-color: var(--highlight-color-pink);
+    background-color: $highlight-color-pink;
     padding: 1rem;
     display: flex; 
     align-items: baseline;
@@ -60,7 +56,7 @@ body {
 }
 
 .heading__title {
-    color: var(--primary-color);
+    color: $primary-color;
     display: inline-block;
     margin: 0;
     flex-grow: 1;
@@ -87,13 +83,13 @@ body {
 
 .nav__link {
     text-decoration: none;
-    color: var(--primary-color);
+    color: $primary-color;
     font-weight: 400;
     font-size: 1.5rem;
 }
 
 .nav__link--selected {
-    color: var(--highlight-color-blue);
+    color: $highlight-color-blue;
 }
 
 /* Button */
@@ -108,7 +104,7 @@ body {
 }
 
 .container-button__border {
-    border: 2px solid var(--primary-color);
+    border: 2px solid $primary-color;
     width: inherit;
     height: inherit;
     position: absolute;
@@ -116,8 +112,8 @@ body {
 }
 
 .container-button__button {
-    background-color: var(--highlight-color-blue);
-    color: var(--secondary-color);
+    background-color: $highlight-color-blue;
+    color: $secondary-color;
     padding: 0.625rem;
     border: none;
     font-size: 1.4rem;
