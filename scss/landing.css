@@ -192,30 +192,25 @@ body {
   margin-top: 5%;
   margin-bottom: 1.25rem;
 }
-
 .about-use__call-to-action {
   width: 30%;
   max-width: 30rem;
   min-width: 20rem;
   align-content: center;
 }
-
 .about-use__logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 1.25rem;
 }
-
 .about-use__logo {
   width: 3rem;
 }
-
 .about-use__button {
   margin: 1.25rem 0;
 }
-
-.about-us__image-container {
+.about-use__image-container {
   border: 5px solid #5BACC3;
   width: 20rem;
   height: 26rem;
@@ -225,22 +220,19 @@ body {
   box-sizing: content-box;
   position: relative;
 }
-
-.about-us__image-container-background {
+.about-use__image-container-background {
   background-image: url(../assets/images/coldbrewbackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: inherit;
   height: inherit;
 }
-
-.about-us__image-container-background--offset {
+.about-use__image-container-background--offset {
   position: absolute;
   left: 1.25rem;
   top: 1.25rem;
   z-index: -1;
 }
-
 .about-use__img {
   height: 17.5rem;
   max-width: 9.6rem;
