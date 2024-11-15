@@ -1,0 +1,253 @@
+/* Elements */
+:root {
+  --primary-color: #393939;
+  --secondary-color: #FFF;
+  --highlight-color-blue: #5BACC3;
+  --highlight-color-pink: #FFF0ED;
+  --neutral-color-light-gray: #F7F7F7;
+  --neutral-color-gray: #909090;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: var(--secondary-color);
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+/* header */
+.heading {
+  background-color: var(--highlight-color-pink);
+  padding: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.heading__logo {
+  width: 3rem;
+  display: inline-block;
+}
+
+.heading__title {
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* nav */
+.nav {
+  display: inline-block;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__list-item {
+  padding: 0;
+  margin-left: 1.6rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.nav__link--selected {
+  color: var(--highlight-color-blue);
+}
+
+/* Button */
+.container-button {
+  position: relative;
+  display: inline-block;
+  width: 11.25rem;
+  height: 2.85rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.container-button__border {
+  border: 2px solid var(--primary-color);
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  pointer-events: none;
+}
+
+.container-button__button {
+  background-color: var(--highlight-color-blue);
+  color: var(--secondary-color);
+  padding: 0.625rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  width: inherit;
+  height: inherit;
+}
+
+.container-button__button--offset {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.3rem;
+}
+
+/* Header hero */
+.hero {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero__text-box {
+  width: 20rem;
+  height: 13rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.hero__text-box-boarder {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: 2;
+  border: solid 5px var(--highlight-color-blue);
+}
+
+.hero__text-box-boarder--offset {
+  bottom: 0.3125rem;
+  right: 0.3125rem;
+}
+
+.hero__text-box-text {
+  color: var(--secondary-color);
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+.hero__image-container {
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__image {
+  max-height: 72rem;
+  align-self: center;
+}
+
+/* Header page nav  */
+.page-nav {
+  display: block;
+  background-color: var(--primary-color);
+}
+
+.page-nav__list {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 400;
+  list-style-type: none;
+  color: var(--secondary-color);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.page-nav__list-item {
+  padding: 0 1.6rem;
+  border-left: solid 4px var(--highlight-color-blue);
+  text-align: center;
+}
+
+.page-nav__link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* Products */
+.product-section {
+  text-align: center;
+}
+
+.product-section__hot-drinks {
+  background-color: var(--highlight-color-pink);
+}
+
+.product-section__cold-drinks {
+  background-color: #F7F7F7;
+}
+
+.product-section__pastries {
+  background-color: var(--highlight-color-pink);
+}
+
+.product-section__category {
+  margin: 0;
+}
+
+.product-section__price {
+  color: var(--highlight-color-blue);
+  font-size: 1.4rem;
+}
+
+.product-section__text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  max-width: 30rem;
+  min-width: 12rem;
+  width: 100%;
+  font-style: italic;
+  text-align: center;
+  justify-self: center;
+}/*# sourceMappingURL=menu.css.map */
