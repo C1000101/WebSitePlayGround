@@ -7,124 +7,122 @@
     display: flex;
     justify-content: center;
     align-content: center;
+
+    &__text-box {
+        width: 20rem;
+        height: 13rem;
+        background-color: $primary-color;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    &__text-box-boarder {
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        z-index: 2;
+        border: solid 5px $highlight-color-blue;
+
+        &--offset {
+            bottom: 0.3125rem;
+            right: 0.3125rem;
+        }
+    }
+
+    &__text-box-text {
+        color: $secondary-color;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 0;
+    }
+
+    &__image-container {
+        height: 100%;
+        position: relative;
+        justify-content: center;
+        overflow: hidden;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__image {
+        max-height: 72rem ;
+        align-self: center;
+    }
 }
-
-.hero__text-box {
-    width: 20rem;
-    height: 13rem;
-    background-color: $primary-color;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-}
-
-.hero__text-box-boarder {
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    z-index: 2;
-    border: solid 5px $highlight-color-blue;
-}
-
-.hero__text-box-boarder--offset {
-    bottom: 0.3125rem;
-    right: 0.3125rem;
-}
-
-.hero__text-box-text {
-    color: $secondary-color;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 0;
-}
-
-.hero__image-container {
-    height: 100%;
-    position: relative;
-    justify-content: center;
-    overflow: hidden;
-    display: flex;
-    background-position: center;
-    background-size: cover;
-}
-
-.hero__image {
-
-    max-height: 72rem ;
-    align-self: center;
-}
-
 
 /* Header page nav  */
 
 .page-nav {
     display: block;
     background-color: $primary-color;
-}
 
-.page-nav__list {
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.4rem;
-    font-weight: 400;
-    list-style-type: none;
-    color: $secondary-color;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
+    &__list {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.4rem;
+        font-weight: 400;
+        list-style-type: none;
+        color: $secondary-color;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
 
-.page-nav__list-item {
-    padding: 0 1.6rem;
-    border-left: solid 4px $highlight-color-blue;
-    text-align: center;
+    &__list-item {
+        padding: 0 1.6rem;
+        border-left: solid 4px $highlight-color-blue;
+        text-align: center;
+    }
+    
+    &__link {
+        color: $secondary-color;
+        text-decoration: none;
+    } 
 }
-
-.page-nav__link {
-    color: $secondary-color;
-    text-decoration: none;
-} 
 
 /* Products */
 
 .product-section {
     text-align: center;
-}
 
-.product-section__hot-drinks {
-    background-color: $highlight-color-pink;
-}
+    &__hot-drinks {
+        background-color: $highlight-color-pink;
+    }
 
-.product-section__cold-drinks {
-    background-color: #F7F7F7;
-}
+    &__cold-drinks {
+        background-color: #F7F7F7;
+    }
 
-.product-section__pastries {
-    background-color: $highlight-color-pink;
-}
+    &__pastries {
+        background-color: $highlight-color-pink;
+    }
 
-.product-section__category {
-    margin: 0;
-}
+    &__category {
+        margin: 0;
+    }
 
-.product-section__price {
-    color: $highlight-color-blue;
-    font-size: 1.4rem;
-}
+    &__price {
+        color: $highlight-color-blue;
+        font-size: 1.4rem;
+    }
 
-.product-section__text {
-    font-size: 1.1rem;
-    font-weight: 400;
-    max-width: 30rem;
-    min-width: 12rem;
-    width: 100%;
-    font-style: italic;
-    text-align: center;
-    justify-self: center;
+    &__text {
+        font-size: 1.1rem;
+        font-weight: 400;
+        max-width: 30rem;
+        min-width: 12rem;
+        width: 100%;
+        font-style: italic;
+        text-align: center;
+        justify-self: center;
+    }
 }

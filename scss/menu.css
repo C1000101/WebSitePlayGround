@@ -111,7 +111,6 @@ body {
   justify-content: center;
   align-content: center;
 }
-
 .hero__text-box {
   width: 20rem;
   height: 13rem;
@@ -123,7 +122,6 @@ body {
   align-items: center;
   align-self: center;
 }
-
 .hero__text-box-boarder {
   width: inherit;
   height: inherit;
@@ -131,19 +129,16 @@ body {
   z-index: 2;
   border: solid 5px #5BACC3;
 }
-
 .hero__text-box-boarder--offset {
   bottom: 0.3125rem;
   right: 0.3125rem;
 }
-
 .hero__text-box-text {
   color: #FFF;
   text-align: center;
   vertical-align: middle;
   margin-top: 0;
 }
-
 .hero__image-container {
   height: 100%;
   position: relative;
@@ -153,7 +148,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .hero__image {
   max-height: 72rem;
   align-self: center;
@@ -164,7 +158,6 @@ body {
   display: block;
   background-color: #393939;
 }
-
 .page-nav__list {
   width: 100%;
   height: 5rem;
@@ -179,13 +172,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .page-nav__list-item {
   padding: 0 1.6rem;
   border-left: solid 4px #5BACC3;
   text-align: center;
 }
-
 .page-nav__link {
   color: #FFF;
   text-decoration: none;
@@ -195,28 +186,22 @@ body {
 .product-section {
   text-align: center;
 }
-
 .product-section__hot-drinks {
   background-color: #FFF0ED;
 }
-
 .product-section__cold-drinks {
   background-color: #F7F7F7;
 }
-
 .product-section__pastries {
   background-color: #FFF0ED;
 }
-
 .product-section__category {
   margin: 0;
 }
-
 .product-section__price {
   color: #5BACC3;
   font-size: 1.4rem;
 }
-
 .product-section__text {
   font-size: 1.1rem;
   font-weight: 400;
