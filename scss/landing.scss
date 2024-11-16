@@ -12,7 +12,7 @@
     background-color: $highlight-color-pink;
     width: 100%;
     height: auto;
-    padding: 1.5rem 0;
+    padding: $common-padding 0;
 
     &__call-to-action {
         width: 30%;
@@ -29,7 +29,7 @@
 .product {
     background-color: $neutral-color-light-gray;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: $common-padding;
 
     &__card-wall {
         display: flex;
@@ -40,7 +40,7 @@
     &__card {
         min-width: 20.6rem;
         min-height: 27.5rem;
-        margin: 1.2rem;
+        margin: $common-margin;
         border-radius: 0.6rem;
         box-shadow: 0 0.3rem 0.6rem -0.063rem rgba(0, 0, 0, 0.25);
         display: flex;
@@ -68,8 +68,8 @@
 
     &__name {
         margin-top: auto;
-        margin-bottom: 0rem;
-        margin-left: 1.25rem;
+        margin-bottom: $no-margin;
+        margin-left: $common-margin;
         text-align: start;
     }
 
@@ -80,16 +80,16 @@
         align-content: center;
         margin-top: auto;
         margin-bottom: auto;
-        margin-right: 1.25rem;
+        margin-right: $common-margin;
     }
     
-    &__discretion {
+    &__description {
         color: $neutral-color-gray;
         width: auto;
         text-align: start;
         margin-top: $no-margin;
         margin-bottom: auto;
-        margin-left: 1.25rem;
+        margin-left: $common-margin
     }
 }
 
@@ -98,7 +98,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 5%;
-    margin-bottom: 1.25rem;
+    margin-bottom: $common-margin;
 
     &__call-to-action {
         width: 30%;
@@ -111,7 +111,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 1.25rem;
+        margin-right: $common-margin;
     }
 
     &__logo {
@@ -119,7 +119,7 @@
     }
 
     &__button {
-        margin: 1.25rem 0;
+        margin: $common-margin 0;
     }
 
     &__image-container {
@@ -166,7 +166,7 @@
         font-weight: $font-weight-medium;
         text-align: center;
         margin: $no-margin;
-        padding: 1.5rem;
+        padding: $common-padding;
     }
 }
 
