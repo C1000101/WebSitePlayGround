@@ -1,27 +1,12 @@
-/* Variable. */
-$primary-color: #393939;
-$secondary-color: #FFF;
-$highlight-color-blue: #5BACC3;
-$highlight-color-pink: #FFF0ED;
-$neutral-color-light-gray: #F7F7F7;
-$neutral-color-gray: #909090;
-
-$font-weight-light: 300;
-$font-weight-medium: 400;
-$font-weight-heavy: 700;
-
-$font-type: 'Open Sans';
-
-$font-size-small: 1.125rem;
-$font-size-medium: 2.1rem;
-$font-size-large: 3.75rem;
+@use './variables' as *;
+@use './mixins' as *;
 
 /* Elements. */
 h1, 
 h2 {
     font-size: $font-size-large;
     font-weight: $font-weight-light;
-    margin: 0;
+    margin: $no-margin;
 }
 
 h3 {
@@ -37,7 +22,7 @@ p {
 body {
     font-family: $font-type;
     font-weight: $font-weight-medium;
-    margin: 0;
+    margin: $no-margin;
 }
 
 /* General class format. */
@@ -63,7 +48,7 @@ body {
     &__title {
         color: $primary-color;
         display: inline-block;
-        margin: 0;
+        margin: $no-margin;
         flex-grow: 1;
     }
 }
@@ -90,7 +75,7 @@ body {
         text-decoration: none;
         color: $primary-color;
         font-weight: $font-weight-medium;
-        font-size: 1.5rem;
+        font-size: $font-size-link;
 
         &--selected {
             color: $highlight-color-blue;
@@ -110,8 +95,7 @@ body {
 
     &__border {
         border: 2px solid $primary-color;
-        width: inherit;
-        height: inherit;
+        @include inherit-width-and-height;
         position: absolute;
         pointer-events: none;
     }
@@ -121,10 +105,9 @@ body {
         color: $secondary-color;
         padding: 0.625rem;
         border: none;
-        font-size: 1.4rem;
+        font-size: $font-size-button;
         font-weight: $font-weight-medium;
-        width: inherit;
-        height: inherit;
+        @include inherit-width-and-height;
 
         &--offset {
             position: absolute;

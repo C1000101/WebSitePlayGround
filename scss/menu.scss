@@ -1,4 +1,6 @@
 @use './partials/global' as *;
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
 
 /* Header hero */
 
@@ -21,8 +23,7 @@
     }
 
     &__text-box-boarder {
-        width: inherit;
-        height: inherit;
+        @include inherit-width-and-height;
         position: absolute;
         z-index: 2;
         border: solid 5px $highlight-color-blue;
@@ -67,14 +68,14 @@
         height: 5rem;
         display: flex;
         flex-wrap: wrap;
-        font-size: 1.4rem;
-        font-weight: 400;
+        font-size: $font-size-button;
+        font-weight: $font-weight-medium;
         list-style-type: none;
         color: $secondary-color;
         justify-content: center;
         align-items: center;
-        margin: 0;
-        padding: 0;
+        margin: $no-margin;
+        padding: $no-padding
     }
 
     &__list-item {
@@ -99,7 +100,7 @@
     }
 
     &__cold-drinks {
-        background-color: #F7F7F7;
+        background-color: $neutral-color-light-gray;
     }
 
     &__pastries {
@@ -107,17 +108,17 @@
     }
 
     &__category {
-        margin: 0;
+        margin: $no-margin;
     }
 
     &__price {
         color: $highlight-color-blue;
-        font-size: 1.4rem;
+        font-size: $font-size-button;
     }
 
     &__text {
         font-size: 1.1rem;
-        font-weight: 400;
+        font-weight: $font-weight-medium;
         max-width: 30rem;
         min-width: 12rem;
         width: 100%;

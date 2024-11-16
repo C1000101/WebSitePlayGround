@@ -1,0 +1,19 @@
+@mixin flex-display-format {
+    display: flex; 
+}
+
+@mixin flex-display-center {
+    @extend flex-display-format;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin inherit-width-and-height {
+    width: inherit;
+    height: inherit;
+}
+
+@mixin full-parent-width-and-height {
+    width: 100%;
+    height: 100%;
+}

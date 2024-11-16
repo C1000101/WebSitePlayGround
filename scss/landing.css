@@ -180,7 +180,7 @@ body {
   color: #909090;
   width: auto;
   text-align: start;
-  margin-top: 0rem;
+  margin-top: 0;
   margin-bottom: auto;
   margin-left: 1.25rem;
 }
@@ -242,7 +242,6 @@ body {
 
 .discount {
   width: 90vw;
-  max-width: var(--max-width);
   background-color: #393939;
   color: #FFF;
   margin: 10rem auto;
