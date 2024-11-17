@@ -29,6 +29,8 @@
     height: 100%;
 }
 
+// Animations
+
 @mixin rotate-inf-on-hover($duration: 1s, $velocity: ease-in-out) {
     @keyframes rotate-inf {
         0% {
@@ -41,6 +43,24 @@
     }
 
     &:hover {
-        animation: rotate-inf #{$duration} #{$velocity} infinite;
+        animation: rotate-inf $duration $velocity infinite;
     }
+}
+
+@mixin swap-background-color-inf($background-one: gold, $background-two: red, $duration: 1s, $velocity: linear) {
+    @keyframes color-swap {
+        0% {
+            background-color: $background-one;
+        }
+
+        50% {
+            background-color: $background-two;
+        }
+
+        100% {
+            background-color: $background-one;
+        }
+    }
+
+    animation: color-swap $duration $velocity infinite;
 }

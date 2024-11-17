@@ -261,6 +261,18 @@ body {
   background-color: #393939;
   color: #FFF;
   margin: 10rem auto;
+  animation: color-swap 2.5s linear infinite;
+}
+@keyframes color-swap {
+  0% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: #393939;
+  }
 }
 .discount__text {
   font-size: 2.8125rem;

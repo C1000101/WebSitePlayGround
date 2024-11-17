@@ -162,6 +162,7 @@
     background-color: $primary-color;
     color: $secondary-color;
     margin: 10rem auto;
+    @include swap-background-color-inf($primary-color, $highlight-color-blue, 2.5s, linear);
 
     &__text {
         font-size: $font-size-discount;
