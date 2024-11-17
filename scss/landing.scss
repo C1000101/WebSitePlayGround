@@ -12,7 +12,7 @@
     background-color: $highlight-color-pink;
     width: 100%;
     height: auto;
-    padding: $common-padding 0;
+    padding: $common-padding $no-padding;
 
     &__call-to-action {
         width: 30%;
