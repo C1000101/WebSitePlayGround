@@ -45,11 +45,15 @@ body {
         display: inline-block;
     }
 
-    &__title {
-        color: $primary-color;
+    &__link {
         display: inline-block;
         margin: $no-margin;
         flex-grow: 1;
+        text-decoration: none;
+    }
+
+    &__title {
+        color: $primary-color;
     }
 }
 
