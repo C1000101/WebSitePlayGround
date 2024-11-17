@@ -138,6 +138,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         @include inherit-width-and-height;
+        
 
         &--offset {
             position: absolute;
@@ -152,6 +153,7 @@
         max-width: 9.6rem;
         position: absolute;
         z-index: 1;
+        @include rotate-inf-on-hover(2s, linear);
     }
 }
 

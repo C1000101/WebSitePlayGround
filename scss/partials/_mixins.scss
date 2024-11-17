@@ -29,3 +29,18 @@
     height: 100%;
 }
 
+@mixin rotate-inf-on-hover($duration: 1s, $velocity: ease-in-out) {
+    @keyframes rotate-inf {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    &:hover {
+        animation: rotate-inf #{$duration} #{$velocity} infinite;
+    }
+}

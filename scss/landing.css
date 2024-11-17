@@ -244,6 +244,17 @@ body {
   position: absolute;
   z-index: 1;
 }
+@keyframes rotate-inf {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.about-use__img:hover {
+  animation: rotate-inf 2s linear infinite;
+}
 
 .discount {
   width: 90vw;
