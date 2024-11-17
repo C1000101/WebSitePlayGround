@@ -84,10 +84,15 @@ body {
 }
 .container-button__border {
   border: 2px solid #393939;
+  box-sizing: border-box;
   width: inherit;
   height: inherit;
-  position: absolute;
   pointer-events: none;
+}
+.container-button__border--offset {
+  position: absolute;
+  right: 0.3rem;
+  bottom: 0.3rem;
 }
 .container-button__button {
   background-color: #5BACC3;
@@ -99,10 +104,9 @@ body {
   width: inherit;
   height: inherit;
 }
-.container-button__button--offset {
-  position: absolute;
-  left: 0.3rem;
-  top: 0.3rem;
+.container-button__button:active + .container-button__border--offset {
+  right: 0rem;
+  bottom: 0rem;
 }
 
 /* Hero */

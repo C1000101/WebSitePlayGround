@@ -94,9 +94,15 @@ body {
 
     &__border {
         border: 2px solid $primary-color;
+        box-sizing: border-box;
         @include inherit-width-and-height;
-        position: absolute;
         pointer-events: none;
+
+        &--offset {
+            position: absolute;
+            right: 0.3rem;
+            bottom: 0.3rem;
+        }
     }
 
     &__button {
@@ -107,11 +113,10 @@ body {
         font-size: $font-size-button;
         font-weight: $font-weight-medium;
         @include inherit-width-and-height;
-
-        &--offset {
-            position: absolute;
-            left: 0.3rem;
-            top: 0.3rem;
+        
+        &:active + .container-button__border--offset {
+            right: 0rem;
+            bottom: 0rem;
         }
     }
 }
